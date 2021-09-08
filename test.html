@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Kaji Selidik DASS</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1>Tajuk</h1>
+  <div class="container-fluid">
+    <form >
+        <div class="row justify-content-center">
+            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+                <h4>Jantina</h4>
+                <label class="radio-inline"><input required  type="radio" name="gender" value="male">Lelaki</label>
+                <label class="radio-inline"><input required  type="radio" name="gender" value="female">Perempuan</label>
+            </div>
+            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+                <h4>Umur</h4>
+                <div class="form-group">
+                  <select required class="form-control" id="age" name="age">
+                    <option value="under 12">Bawah 12</option>
+                    <option value="12-17">12 hingga 17</option>
+                    <option value="18-24">18 hingga 24</option>
+                    <option value="25-34" selected>25 hingga 34</option>
+                    <option value="35-44">35 hingga 44</option>
+                    <option value="45-54">45 hingga 54</option>
+                    <option value="55-64">55 hingga 64</option>
+                    <option value="65-74">65 hingga 74</option>
+                    <option value="over 75">Lebih 75</option>
+                  </select>
+                </div>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+                <h4>Bangsa</h4>
+                <div class="form-group">
+                  <select required class="form-control" id="race" name="race">    
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="malay">Melayu</option>
+                    <option value="chinese">Cina</option>
+                    <option value="indian">India</option>
+                    <option value="other">Lain-Lain</option>
+                  </select>
+                </div>
+            </div>
+            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+                <h4>Status Perkahwinan</h4>
+                <div class="form-group">
+                  <select required class="form-control" id="marital" name="marital">
+                    <option value="single">Bujang</option>
+                    <option value="married">Berkahwin</option>
+                    <option value="divorced/widowed">Janda/Duda</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+                <h4>Tahap Pendidikan</h4>
+                <div class="form-group">
+                  <select required class="form-control" id="education" name="education">
+                    <option value="primary">Sekolah Rendah</option>
+                    <option value="secondary">Sekolah Menengah</option>
+                    <option value="college/university" selected>Kolej/Universiti</option>
+                    <option value="none">Tiada</option>
+                  </select>
+                </div>
+            </div>
+            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+                <h4>Pekerjaan</h4>
+                <div class="form-group">
+                  <select required class="form-control" id="occupation" name="occupation">
+                    <option value="professional">Professional</option>
+                    <option value="skilled">Skilled</option>
+                    <option value="semi-skilled">Semi-skilled</option>
+                    <option value="student">Pelajar</option>
+                    <option value="unemployed">Penganggur</option>
+                  </select>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="language" name="language" value="malay">
+        <button type="submit" class="processing btn btn-block btn-lg btn-more">
+            <i class="fa fa-pencil fa-pulse"></i> 
+    </form>
+  </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
