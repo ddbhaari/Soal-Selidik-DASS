@@ -13,16 +13,31 @@
 </head>
 
 <body>
-  <h1>Tajuk</h1>
-  <div class="container-fluid">
-    <form >
-        <div class="row justify-content-center">
-            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
-                <h4>Jantina</h4>
-                <label class="radio-inline"><input required  type="radio" name="gender" value="male">Lelaki</label>
-                <label class="radio-inline"><input required  type="radio" name="gender" value="female">Perempuan</label>
+  <style>
+    .custom-form{
+      background-color: E4D6D2;
+    }
+  </style>
+
+  <div class="text-center p-5" style="background-color: #E4D6D2;">
+    <h1>Soal Selidik DASS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, at rem ut quaerat ipsam praesentium ab. Quas aut cupiditate impedit molestias, quis veritatis perspiciatis voluptatem libero ipsam praesentium ipsa enim.</p>
+  </div>
+  
+  <div class="container-fluid h-100 d-flex flex-column">
+    <form class="custom-form bg-light p-3">
+        <div class="row justify-content-center flex-grow-1">
+            <div class="col-sm-4 p-3">
+              <h4>Jantina</h4>
+              <div class="form-group">
+                <select required class="form-control" id="gender" name="gender">    
+                  <option disabled selected value> -- sila pilih -- </option>
+                  <option value="malay">Lelaki</option>
+                  <option value="chinese">Perempuan</option>
+                </select>
+              </div>
             </div>
-            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+            <div class="col-sm-4 p-3">
                 <h4>Umur</h4>
                 <div class="form-group">
                   <select required class="form-control" id="age" name="age">
@@ -37,14 +52,14 @@
                     <option value="over 75">Lebih 75</option>
                   </select>
                 </div>
-        </div>
+          </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+            <div class="col-sm-4 p-3">
                 <h4>Bangsa</h4>
                 <div class="form-group">
                   <select required class="form-control" id="race" name="race">    
-                    <option disabled selected value> -- select an option -- </option>
+                    <option disabled selected value> -- sila pilih -- </option>
                     <option value="malay">Melayu</option>
                     <option value="chinese">Cina</option>
                     <option value="indian">India</option>
@@ -52,7 +67,7 @@
                   </select>
                 </div>
             </div>
-            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+            <div class="col-sm-4 p-3">
                 <h4>Status Perkahwinan</h4>
                 <div class="form-group">
                   <select required class="form-control" id="marital" name="marital">
@@ -64,7 +79,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+            <div class="col-sm-4 p-3">
                 <h4>Tahap Pendidikan</h4>
                 <div class="form-group">
                   <select required class="form-control" id="education" name="education">
@@ -75,7 +90,7 @@
                   </select>
                 </div>
             </div>
-            <div class="col-sm-4 p-3 border bg-light offset-sm-1">
+            <div class="col-sm-4 p-3">
                 <h4>Pekerjaan</h4>
                 <div class="form-group">
                   <select required class="form-control" id="occupation" name="occupation">
@@ -88,23 +103,12 @@
                 </div>
             </div>
         </div>
-        <input type="hidden" id="language" name="language" value="malay">
-        <button type="submit" class="processing btn btn-block btn-lg btn-more">
-            <i class="fa fa-pencil fa-pulse"></i> 
+        
+        <a type="button" class="btn btn-block btn-lg btn-more" href="file:///Users/user/Desktop/Coding%20Project/dassproject/question.html">
+            <i class="fa fa-pencil fa-pulse border-0">Mula</i> 
     </form>
   </div>
  
-
-
-
-
-
-
-
-
-
-
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
