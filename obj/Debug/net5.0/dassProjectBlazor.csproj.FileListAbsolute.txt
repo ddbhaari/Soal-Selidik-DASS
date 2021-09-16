@@ -55,3 +55,7 @@
 /Users/user/Desktop/Coding Project/dassProjectBlazor/obj/Debug/net5.0/dassProjectBlazor.pdb
 /Users/user/Desktop/Coding Project/dassProjectBlazor/obj/Debug/net5.0/dassProjectBlazor.genruntimeconfig.cache
 /Users/user/Desktop/Coding Project/dassProjectBlazor/obj/Debug/net5.0/dassProjectBlazor.csproj.CopyComplete
+/Users/user/Desktop/Coding Project/dassProjectBlazor/obj/Debug/net5.0/RazorDeclaration/Pages/Todo.razor.g.cs
+/Users/user/Desktop/Coding Project/dassProjectBlazor/obj/Debug/net5.0/Razor/Pages/Todo.razor.g.cs
+/Users/user/Desktop/Coding Project/dassProjectBlazor/obj/Debug/net5.0/RazorDeclaration/Pages/Soalan.razor.g.cs
+/Users/user/Desktop/Coding Project/dassProjectBlazor/obj/Debug/net5.0/Razor/Pages/Soalan.razor.g.cs

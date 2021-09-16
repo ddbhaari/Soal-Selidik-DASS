@@ -1,0 +1,54 @@
+@page "/soalan"
+
+<h1>@currentQuestion</h1>
+
+<p>
+  <button @onclick="tunjukSoalan">
+    Jawapan
+  </button>
+</p>
+
+@code {
+  private string currentQuestion = "Soalan 0";
+  private int i = 0;
+  private int nomborSoalan = 0;
+
+  private string soalan = "";
+
+  //check
+  private async Task tunjukSoalan()
+  {
+    nomborSoalan = updateNomborSoalan();
+    soalan = dapatkanSoalan(nomborSoalan);
+    await Task.Delay(2000);
+    currentQuestion = $"{soalan}"; 
+  }
+
+  private int updateNomborSoalan()
+  {
+    i++;
+    return i;
+  }
+
+  private string dapatkanSoalan(int nomborSoalan)
+  {
+    switch (nomborSoalan)
+    {
+      case 1:
+        string soalan_1 = "Soalan 1";
+        return soalan_1;
+
+      case 2:
+        string soalan_2 = "Soalan 2";
+        return soalan_2;
+
+      case 3:
+        string soalan_3 = "Soalan 3";
+        return soalan_3;
+
+      default:
+        return "not found";
+    }
+  }
+}
+

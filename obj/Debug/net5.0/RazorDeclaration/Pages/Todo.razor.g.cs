@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace dassProjectBlazor.Shared
+namespace dassProjectBlazor.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,8 @@ using dassProjectBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/todo")]
+    public partial class Todo : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,15 +91,17 @@ using dassProjectBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 35 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Shared/NavMenu.razor"
+#line 18 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Todo.razor"
        
-    private bool collapseNavMenu = true;
-
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+  private List<TodoItem> todos = new();
+  private string newTodo;
+    private void AddTodo()
     {
-        collapseNavMenu = !collapseNavMenu;
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem { Title = newTodo });
+            newTodo = string.Empty;
+        }
     }
 
 #line default

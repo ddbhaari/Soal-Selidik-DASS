@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace dassProjectBlazor.Shared
+namespace dassProjectBlazor.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,8 @@ using dassProjectBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/soalan")]
+    public partial class Soalan : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,16 +91,49 @@ using dassProjectBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 35 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Shared/NavMenu.razor"
+#line 11 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Soalan.razor"
        
-    private bool collapseNavMenu = true;
+  private string currentQuestion = "Soalan 0";
+  private int i = 0;
+  private int nomborSoalan = 0;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+  private string soalan = "";
 
-    private void ToggleNavMenu()
+  //check
+  private async Task tunjukSoalan()
+  {
+    nomborSoalan = updateNomborSoalan();
+    soalan = dapatkanSoalan(nomborSoalan);
+    await Task.Delay(2000);
+    currentQuestion = $"{soalan}"; 
+  }
+
+  private int updateNomborSoalan()
+  {
+    i++;
+    return i;
+  }
+
+  private string dapatkanSoalan(int nomborSoalan)
+  {
+    switch (nomborSoalan)
     {
-        collapseNavMenu = !collapseNavMenu;
+      case 1:
+        string soalan_1 = "Soalan 1";
+        return soalan_1;
+
+      case 2:
+        string soalan_2 = "Soalan 2";
+        return soalan_2;
+
+      case 3:
+        string soalan_3 = "Soalan 3";
+        return soalan_3;
+
+      default:
+        return "not found";
     }
+  }
 
 #line default
 #line hidden
