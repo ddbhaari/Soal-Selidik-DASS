@@ -13,70 +13,70 @@ namespace dassProjectBlazor.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 1 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 2 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 3 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 4 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 5 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 6 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 7 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 8 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 9 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using dassProjectBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor"
+#line 10 "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor"
 using dassProjectBlazor.Shared;
 
 #line default
@@ -91,7 +91,7 @@ using dassProjectBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 59 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Question.razor"
+#line 60 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
        
   private string currentQuestion = "Saya dapati diri saya sukar ditenteramkan";
   private int i = 1;
@@ -162,7 +162,7 @@ using dassProjectBlazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 123 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Question.razor"
+#line 124 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
                                                     
       if(keputusanKemurungan  <= 5){
           tahapKemurungan = "Normal";
@@ -183,7 +183,7 @@ using dassProjectBlazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 137 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Question.razor"
+#line 138 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
                                                  
       if(keputusanAnzieti  <= 4){
           tahapAnzieti = "Normal";
@@ -203,7 +203,7 @@ using dassProjectBlazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 150 "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Question.razor"
+#line 151 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
                                                 
       if(keputusanStress  <= 7){
           tahapStress = "Normal";
@@ -216,6 +216,9 @@ using dassProjectBlazor.Shared;
       }else if(keputusanStress >= 18){
         tahapStress = "Sangat Teruk";
       }
+
+      NavigationManager.NavigateTo($"result/" + tahapAnzieti + "/" + tahapStress + "/" + tahapKemurungan);
+
     }
 
     nomborSoalan = updateNomborSoalan();
@@ -327,6 +330,7 @@ using dassProjectBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
     }
 }
 #pragma warning restore 1591

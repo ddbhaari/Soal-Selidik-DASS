@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/Coding Project/dassProjectBlazor/dassProjectBlazor.csproj",
+      "projectUniqueName": "/Users/user/Desktop/Coding Project/dassproject/dassProjectBlazor.csproj",
       "projectName": "dassProjectBlazor",
-      "projectPath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/dassProjectBlazor.csproj",
+      "projectPath": "/Users/user/Desktop/Coding Project/dassproject/dassProjectBlazor.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/obj/",
+      "outputPath": "/Users/user/Desktop/Coding Project/dassproject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"

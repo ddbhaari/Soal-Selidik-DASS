@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/dassProjectBlazor.csproj",
+  "FilePath": "/Users/user/Desktop/Coding Project/dassproject/dassProjectBlazor.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -78,72 +78,6 @@
         }
       },
       {
-        "HashCode": 841718721,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Todo",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Todo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Todo"
-        }
-      },
-      {
-        "HashCode": 1137795079,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Todo",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.Pages.Todo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Todo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -642517501,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Soalan",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Soalan"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Soalan"
-        }
-      },
-      {
-        "HashCode": 608519066,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Soalan",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.Pages.Soalan"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Soalan",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1600792809,
         "Kind": "Components.Component",
         "Name": "dassProjectBlazor.Pages.Question",
@@ -173,6 +107,124 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "dassProjectBlazor.Pages.Question",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1560619794,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Result",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Result"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "tahapAnzieti",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tahapAnzieti"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "tahapStress",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tahapStress"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "tahapKemurungan",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tahapKemurungan"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Result"
+        }
+      },
+      {
+        "HashCode": 508917164,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Result",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dassProjectBlazor.Pages.Result"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "tahapAnzieti",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tahapAnzieti"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "tahapStress",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tahapStress"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "tahapKemurungan",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "tahapKemurungan"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Result",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1015207486,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.App",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.App"
+        }
+      },
+      {
+        "HashCode": 686309349,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.App",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dassProjectBlazor.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -355,39 +407,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "dassProjectBlazor.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1015207486,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.App",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.App"
-        }
-      },
-      {
-        "HashCode": 686309349,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.App",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15999,64 +16018,59 @@
   "RootNamespace": "dassProjectBlazor",
   "Documents": [
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Todo.razor",
-      "TargetPath": "Pages\\Todo.razor",
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Shared/SurveyPrompt.razor",
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Shared/SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Shared/NavMenu.razor",
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Pages/Result.razor",
+      "TargetPath": "Pages\\Result.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Soalan.razor",
-      "TargetPath": "Pages\\Soalan.razor",
-      "FileKind": "component"
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Index.razor",
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Question.razor",
-      "TargetPath": "Pages\\Question.razor",
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/_Host.cshtml",
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Pages/_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor",
+      "TargetPath": "Pages\\Question.razor",
+      "FileKind": "component"
     },
     {
-      "FilePath": "/Users/user/Desktop/Coding Project/dassProjectBlazor/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
+      "FilePath": "/Users/user/Desktop/Coding Project/dassproject/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

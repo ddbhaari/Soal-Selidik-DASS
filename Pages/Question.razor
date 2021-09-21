@@ -1,4 +1,5 @@
 @page "/question"
+@inject NavigationManager NavigationManager
 
 <body>
   <style>
@@ -159,6 +160,9 @@
       }else if(keputusanStress >= 18){
         tahapStress = "Sangat Teruk";
       }
+
+      NavigationManager.NavigateTo($"result/" + tahapAnzieti + "/" + tahapStress + "/" + tahapKemurungan);
+
     }
 
     nomborSoalan = updateNomborSoalan();

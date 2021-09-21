@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace dassProjectBlazor
+namespace dassProjectBlazor.Pages
 {
     #line hidden
     using System;
@@ -82,13 +82,42 @@ using dassProjectBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class App : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/result/{tahapAnzieti}/{tahapStress}/{tahapKemurungan}")]
+    public partial class Result : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 97 "/Users/user/Desktop/Coding Project/dassproject/Pages/Result.razor"
+       
+    [Parameter]
+    public string tahapAnzieti { get; set; }
+
+    [Parameter]
+    public string tahapStress { get; set; }
+
+    [Parameter]
+    public string tahapKemurungan { get; set; }
+
+    int currentCount = 0;
+    bool firstRender = true;
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await
+            JsRuntime.InvokeAsync<object>("initializeCarousel"); firstRender = false;
+        }
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JsRuntime { get; set; }
     }
 }
 #pragma warning restore 1591
