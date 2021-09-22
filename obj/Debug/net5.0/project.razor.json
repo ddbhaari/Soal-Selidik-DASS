@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": 942329833,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Index",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1788967191,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Index",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1560619794,
         "Kind": "Components.Component",
         "Name": "dassProjectBlazor.Pages.Result",
@@ -192,6 +159,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "dassProjectBlazor.Pages.Result",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 942329833,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Index",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1788967191,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Index",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dassProjectBlazor.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
