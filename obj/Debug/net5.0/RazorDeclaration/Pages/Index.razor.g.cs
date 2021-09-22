@@ -91,7 +91,7 @@ using dassProjectBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 150 "/Users/user/Desktop/Coding Project/dassproject/Pages/Index.razor"
+#line 149 "/Users/user/Desktop/Coding Project/dassproject/Pages/Index.razor"
  
   bool showQuestionComponent;
 

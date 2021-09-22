@@ -91,7 +91,7 @@
         <div class="col-sm-4 p-3">
           <h4>Tahap Pendidikan</h4>
           <div class="form-group">
-            <select  class="form-control" id="education" name="education">
+            <select class="form-control" id="education" name="education">
               <option value="primary">Sekolah Rendah</option>
               <option value="secondary">Sekolah Menengah</option>
               <option value="college/university" selected>Kolej/Universiti</option>
@@ -129,18 +129,17 @@
           </div>
         </div>
       </div>
-
-      <a type="button" class="btn btn-block btn-lg btn-more"
-        @onclick="() => {showQuestionComponent = true; StateHasChanged();}">
-        <i class="fa fa-pencil fa-pulse border-0">Mula</i>
-      </a>
-
-      @if (showQuestionComponent)
-      {
-        <Question />
-      }
-
     </form>
+
+    <a type="button" class="btn btn-block btn-lg btn-more"
+      @onclick="() => {showQuestionComponent = true; StateHasChanged();}">
+      <i class="fa fa-pencil fa-pulse border-0">Mula</i>
+    </a>
+
+    @if (showQuestionComponent)
+    {
+      <Question />
+    }
   </div>
 </body>
 

@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": -1600792809,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Question",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Question"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Question"
-        }
-      },
-      {
-        "HashCode": -1371055685,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Question",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.Pages.Question"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Question",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1560619794,
         "Kind": "Components.Component",
         "Name": "dassProjectBlazor.Pages.Result",
@@ -159,6 +126,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "dassProjectBlazor.Pages.Result",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1600792809,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Question",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Question"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Question"
+        }
+      },
+      {
+        "HashCode": -1371055685,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Question",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dassProjectBlazor.Pages.Question"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Question",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
