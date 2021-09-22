@@ -12,72 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1869518159,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.FetchData",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1428751536,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.FetchData",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 942329833,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Index",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1788967191,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Pages.Index",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1600792809,
         "Kind": "Components.Component",
         "Name": "dassProjectBlazor.Pages.Question",
@@ -107,6 +41,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "dassProjectBlazor.Pages.Question",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1869518159,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.FetchData",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1428751536,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.FetchData",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dassProjectBlazor.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -196,6 +163,39 @@
         }
       },
       {
+        "HashCode": 942329833,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Index",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1788967191,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Pages.Index",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dassProjectBlazor.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1015207486,
         "Kind": "Components.Component",
         "Name": "dassProjectBlazor.App",
@@ -278,6 +278,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "dassProjectBlazor.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1500997049,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Shared.NavMenu",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 190372715,
+        "Kind": "Components.Component",
+        "Name": "dassProjectBlazor.Shared.NavMenu",
+        "AssemblyName": "dassProjectBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "dassProjectBlazor.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "dassProjectBlazor.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -374,39 +407,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "dassProjectBlazor.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1500997049,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Shared.NavMenu",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 190372715,
-        "Kind": "Components.Component",
-        "Name": "dassProjectBlazor.Shared.NavMenu",
-        "AssemblyName": "dassProjectBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "dassProjectBlazor.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "dassProjectBlazor.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

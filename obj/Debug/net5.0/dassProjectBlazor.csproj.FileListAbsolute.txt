@@ -82,8 +82,6 @@
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/Pages/Question.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/Pages/Result.razor.g.cs
-/Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/Pages/Soalan.razor.g.cs
-/Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/Pages/Todo.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
@@ -98,8 +96,6 @@
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/Pages/Question.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/Pages/Result.razor.g.cs
-/Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/Pages/Soalan.razor.g.cs
-/Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/Pages/Todo.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
 /Users/user/Desktop/Coding Project/dassproject/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs

@@ -12,100 +12,109 @@
 
 <body>
   <style>
-    .custom-form{
+    .custom-form {
       background-color: E4D6D2;
     }
   </style>
 
   <div class="text-center p-5" style="background-color: #E4D6D2;">
-    <h1>Soal Selidik DASS</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, at rem ut quaerat ipsam praesentium ab. Quas aut cupiditate impedit molestias, quis veritatis perspiciatis voluptatem libero ipsam praesentium ipsa enim.</p>
+    <h1>Program Teroka Minda Anda (Mind Your Mind)</h1>
+
+    <p>Inisiatif Jabatan Perkhidmatan Kesihatan MBSP dalam mengenal-pasti dan menyelesaikan isu-isu berkaitan kesihatan
+      mental dalam kalangan kakitangan, khususnya dalam tempoh pasca-pandemik.</p>
+
+    <p>Ujian saringan ini berfungsi sebagai saringan awal bagi status kesihatan mnetal anda.
+
+      Ujian saringan ini mengandungi 21 soalan.
+      Setiap soalan diberi empat pilihan jawapan. Sila pilih SATU jawapan mengikut kesesuaian dan bertepatan dengan situasi diri anda. Tiada jawapan betul atau salah.
+
+      Untuk makluman, semua data yang diperoleh melalui aplikasi ini dipelihara berlandaskan prinsip kerahsiaan dan hanya boleh diakses oleh pihak pentadbir sistem sahaja.</p>
   </div>
-  
+
   <div class="container-fluid h-100 d-flex flex-column">
     <form class="custom-form bg-light p-3">
-        <div class="row justify-content-center flex-grow-1">
-            <div class="col-sm-4 p-3">
-              <h4>Jantina</h4>
-              <div class="form-group">
-                <select required class="form-control" id="gender" name="gender">    
-                  <option disabled selected value> -- sila pilih -- </option>
-                  <option value="malay">Lelaki</option>
-                  <option value="chinese">Perempuan</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-sm-4 p-3">
-                <h4>Umur</h4>
-                <div class="form-group">
-                  <select required class="form-control" id="age" name="age">
-                    <option value="under 12">Bawah 12</option>
-                    <option value="12-17">12 hingga 17</option>
-                    <option value="18-24">18 hingga 24</option>
-                    <option value="25-34" selected>25 hingga 34</option>
-                    <option value="35-44">35 hingga 44</option>
-                    <option value="45-54">45 hingga 54</option>
-                    <option value="55-64">55 hingga 64</option>
-                    <option value="65-74">65 hingga 74</option>
-                    <option value="over 75">Lebih 75</option>
-                  </select>
-                </div>
+      <div class="row justify-content-center flex-grow-1">
+        <div class="col-sm-4 p-3">
+          <h4>Jantina</h4>
+          <div class="form-group">
+            <select required class="form-control" id="gender" name="gender">
+              <option disabled selected value> -- sila pilih -- </option>
+              <option value="malay">Lelaki</option>
+              <option value="chinese">Perempuan</option>
+            </select>
           </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-4 p-3">
-                <h4>Bangsa</h4>
-                <div class="form-group">
-                  <select required class="form-control" id="race" name="race">    
-                    <option disabled selected value> -- sila pilih -- </option>
-                    <option value="malay">Melayu</option>
-                    <option value="chinese">Cina</option>
-                    <option value="indian">India</option>
-                    <option value="other">Lain-Lain</option>
-                  </select>
-                </div>
-            </div>
-            <div class="col-sm-4 p-3">
-                <h4>Status Perkahwinan</h4>
-                <div class="form-group">
-                  <select required class="form-control" id="marital" name="marital">
-                    <option value="single">Bujang</option>
-                    <option value="married">Berkahwin</option>
-                    <option value="divorced/widowed">Janda/Duda</option>
-                  </select>
-                </div>
-            </div>
+        <div class="col-sm-4 p-3">
+          <h4>Umur</h4>
+          <div class="form-group">
+            <select required class="form-control" id="age" name="age">
+              <option value="under 12">Bawah 12</option>
+              <option value="12-17">12 hingga 17</option>
+              <option value="18-24">18 hingga 24</option>
+              <option value="25-34" selected>25 hingga 34</option>
+              <option value="35-44">35 hingga 44</option>
+              <option value="45-54">45 hingga 54</option>
+              <option value="55-64">55 hingga 64</option>
+              <option value="65-74">65 hingga 74</option>
+              <option value="over 75">Lebih 75</option>
+            </select>
+          </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-sm-4 p-3">
-                <h4></h4>
-                <div class="form-group">
-                  <select required class="form-control" id="education" name="education">
-                    <option value="primary">Sekolah Rendah</option>
-                    <option value="secondary">Sekolah Menengah</option>
-                    <option value="college/university" selected>Kolej/Universiti</option>
-                    <option value="none">Tiada</option>
-                  </select>
-                </div>
-            </div>
-            <div class="col-sm-4 p-3">
-                <h4>Pekerjaan</h4>
-                <div class="form-group">
-                  <select required class="form-control" id="occupation" name="occupation">
-                    <option value="professional">Professional</option>
-                    <option value="skilled">Skilled</option>
-                    <option value="semi-skilled">Semi-skilled</option>
-                    <option value="student">Pelajar</option>
-                    <option value="unemployed">Penganggur</option>
-                  </select>
-                </div>
-            </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-4 p-3">
+          <h4>Bangsa</h4>
+          <div class="form-group">
+            <select required class="form-control" id="race" name="race">
+              <option disabled selected value> -- sila pilih -- </option>
+              <option value="malay">Melayu</option>
+              <option value="chinese">Cina</option>
+              <option value="indian">India</option>
+              <option value="other">Lain-Lain</option>
+            </select>
+          </div>
         </div>
-        
-        <a type="button" class="btn btn-block btn-lg btn-more" href="/question">
-          <i class="fa fa-pencil fa-pulse border-0">Mula</i>
-        </a>
-            
+        <div class="col-sm-4 p-3">
+          <h4>Status Perkahwinan</h4>
+          <div class="form-group">
+            <select required class="form-control" id="marital" name="marital">
+              <option value="single">Bujang</option>
+              <option value="married">Berkahwin</option>
+              <option value="divorced/widowed">Janda/Duda</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-4 p-3">
+          <h4></h4>
+          <div class="form-group">
+            <select required class="form-control" id="education" name="education">
+              <option value="primary">Sekolah Rendah</option>
+              <option value="secondary">Sekolah Menengah</option>
+              <option value="college/university" selected>Kolej/Universiti</option>
+              <option value="none">Tiada</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-4 p-3">
+          <h4>Pekerjaan</h4>
+          <div class="form-group">
+            <select required class="form-control" id="occupation" name="occupation">
+              <option value="professional">Professional</option>
+              <option value="skilled">Skilled</option>
+              <option value="semi-skilled">Semi-skilled</option>
+              <option value="student">Pelajar</option>
+              <option value="unemployed">Penganggur</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <a type="button" class="btn btn-block btn-lg btn-more" href="/question">
+        <i class="fa fa-pencil fa-pulse border-0">Mula</i>
+      </a>
+
     </form>
   </div>
 </body>
@@ -114,8 +123,9 @@
 
 @code
 {
-  private void startAnswering(){
+  private void startAnswering()
+  {
     NavigationManager.NavigateTo("Question");
   }
-  
+
 }
