@@ -91,13 +91,9 @@ using dassProjectBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 125 "/Users/user/Desktop/Coding Project/dassproject/Pages/Index.razor"
+#line 150 "/Users/user/Desktop/Coding Project/dassproject/Pages/Index.razor"
  
-  private void startAnswering()
-  {
-    NavigationManager.NavigateTo("Question");
-  }
-
+  bool showQuestionComponent;
 
 #line default
 #line hidden

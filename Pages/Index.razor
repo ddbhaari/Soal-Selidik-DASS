@@ -26,9 +26,11 @@
     <p>Ujian saringan ini berfungsi sebagai saringan awal bagi status kesihatan mnetal anda.
 
       Ujian saringan ini mengandungi 21 soalan.
-      Setiap soalan diberi empat pilihan jawapan. Sila pilih SATU jawapan mengikut kesesuaian dan bertepatan dengan situasi diri anda. Tiada jawapan betul atau salah.
+      Setiap soalan diberi empat pilihan jawapan. Sila pilih SATU jawapan mengikut kesesuaian dan bertepatan dengan
+      situasi diri anda. Tiada jawapan betul atau salah.
 
-      Untuk makluman, semua data yang diperoleh melalui aplikasi ini dipelihara berlandaskan prinsip kerahsiaan dan hanya boleh diakses oleh pihak pentadbir sistem sahaja.</p>
+      Untuk makluman, semua data yang diperoleh melalui aplikasi ini dipelihara berlandaskan prinsip kerahsiaan dan
+      hanya boleh diakses oleh pihak pentadbir sistem sahaja.</p>
   </div>
 
   <div class="container-fluid h-100 d-flex flex-column">
@@ -47,7 +49,7 @@
         <div class="col-sm-4 p-3">
           <h4>Umur</h4>
           <div class="form-group">
-            <select required class="form-control" id="age" name="age">
+            <select class="form-control" id="age" name="age">
               <option value="under 12">Bawah 12</option>
               <option value="12-17">12 hingga 17</option>
               <option value="18-24">18 hingga 24</option>
@@ -65,7 +67,7 @@
         <div class="col-sm-4 p-3">
           <h4>Bangsa</h4>
           <div class="form-group">
-            <select required class="form-control" id="race" name="race">
+            <select class="form-control" id="race" name="race">
               <option disabled selected value> -- sila pilih -- </option>
               <option value="malay">Melayu</option>
               <option value="chinese">Cina</option>
@@ -77,7 +79,7 @@
         <div class="col-sm-4 p-3">
           <h4>Status Perkahwinan</h4>
           <div class="form-group">
-            <select required class="form-control" id="marital" name="marital">
+            <select class="form-control" id="marital" name="marital">
               <option value="single">Bujang</option>
               <option value="married">Berkahwin</option>
               <option value="divorced/widowed">Janda/Duda</option>
@@ -87,7 +89,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-sm-4 p-3">
-          <h4></h4>
+          <h4>Tahap Pendidikan</h4>
           <div class="form-group">
             <select required class="form-control" id="education" name="education">
               <option value="primary">Sekolah Rendah</option>
@@ -98,22 +100,45 @@
           </div>
         </div>
         <div class="col-sm-4 p-3">
-          <h4>Pekerjaan</h4>
+          <h4>Jabatan</h4>
           <div class="form-group">
-            <select required class="form-control" id="occupation" name="occupation">
-              <option value="professional">Professional</option>
-              <option value="skilled">Skilled</option>
-              <option value="semi-skilled">Semi-skilled</option>
-              <option value="student">Pelajar</option>
-              <option value="unemployed">Penganggur</option>
+            <select class="form-control" id="occupation" name="occupation">
+              <option value="">Jabatan Korporat dan Perhubungan Antarabangsa</option>
+              <option value="">Jabatan Teknologi Informasi dan Komunikasi</option>
+              <option value="">Jabatan Khidmat Pengurusan</option>
+              <option value="">Jabatan Perbendaharaan</option>
+              <option value="">Jabatan Kemasyarakatan</option>
+              <option value="">Jabatan Penilaian dan Pengurusan Harta</option>
+              <option value="">Jabatan Undang-undang</option>
+              <option value="">Jabatan Perancang Bandar</option>
+              <option value="">Jabatan Bangunan</option>
+              <option value="">Jabatan Kejuruteraan</option>
+              <option value="">Jabatan Perkhidmatan Perbandaran</option>
+              <option value="">Jabatan Perkhidmatan Kesihatan</option>
+              <option value="">Jabatan Pelesenan</option>
+              <option value="">Direktorat Penguatkuasaan</option>
+              <option value="">Jabatan Pesuruhjaya Bangunan</option>
+              <option value="">Jabatan Landskap</option>
+              <option value="">Jabatan Pengurusan Krisis</option>
+              <option value="">Unit Audit Dalaman</option>
+              <option value="">Unit OSC</option>
+              <option value="">Unit Butterworth Baharu</option>
+              <option value="">Unit Pelancongan, Seni Dan Warisan</option>
+              <option value="">Bahagian Keselamatan dan Komuniti</option>
             </select>
           </div>
         </div>
       </div>
 
-      <a type="button" class="btn btn-block btn-lg btn-more" href="/question">
+      <a type="button" class="btn btn-block btn-lg btn-more"
+        @onclick="() => {showQuestionComponent = true; StateHasChanged();}">
         <i class="fa fa-pencil fa-pulse border-0">Mula</i>
       </a>
+
+      @if (showQuestionComponent)
+      {
+        <Question />
+      }
 
     </form>
   </div>
@@ -123,9 +148,5 @@
 
 @code
 {
-  private void startAnswering()
-  {
-    NavigationManager.NavigateTo("Question");
-  }
-
+  bool showQuestionComponent;
 }

@@ -91,7 +91,7 @@ using dassProjectBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 60 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
+#line 61 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
        
   private string currentQuestion = "Saya dapati diri saya sukar ditenteramkan";
   private int i = 1;
@@ -112,13 +112,15 @@ using dassProjectBlazor.Shared;
   private string tahapAnzieti = "";
   private string tahapKemurungan = "";
 
+  bool flag_endquestion = false;
+
   //check
   private void main(int nilai)
   {
     skor = nilai; 
 
     //sumup result
-    if(nomborSoalan != 22){
+    if(flag_endquestion == false){
       if(soalanStress.Contains(nomborSoalan)){
         if(skor == 0){
           keputusanStress = keputusanStress + skor;
@@ -162,7 +164,7 @@ using dassProjectBlazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 124 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
+#line 127 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
                                                     
       if(keputusanKemurungan  <= 5){
           tahapKemurungan = "Normal";
@@ -183,7 +185,7 @@ using dassProjectBlazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 138 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
+#line 141 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
                                                  
       if(keputusanAnzieti  <= 4){
           tahapAnzieti = "Normal";
@@ -203,7 +205,7 @@ using dassProjectBlazor.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 151 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
+#line 154 "/Users/user/Desktop/Coding Project/dassproject/Pages/Question.razor"
                                                 
       if(keputusanStress  <= 7){
           tahapStress = "Normal";
@@ -314,18 +316,15 @@ using dassProjectBlazor.Shared;
 
       case 21:
         string soalan_21= "Saya rasa hidup ini tidak bermakna";
+        flag_endquestion = true;
         return soalan_21;
-
-
-      case 22:
-        string soalan_tamat= "Soalan Tamat";
-        return soalan_tamat;
 
       default:
         string soalan_tamat1= "Soalan Tamat";
         return soalan_tamat1;
     }
   }
+
 
 #line default
 #line hidden

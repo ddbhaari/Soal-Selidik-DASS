@@ -10,14 +10,15 @@
 
     h4 {
       display: flex;
-      width: 50%;
-      height: 600px;
       margin: auto;
       align-items: center;
       justify-content: center;
     }
-  </style>
 
+    button:focus {
+    outline: none;
+}
+  </style>
   <div class="container-fluid h-100 d-flex flex-column">
     <div class="row flex-grow-1">
 
@@ -27,29 +28,29 @@
       </div>
 
       <!-- jawapan skor 0-->
-      <div class="col-sm-2 p-3 border bg-light">
-        <button class="answer1" @onclick="@(() =>main(0))">
+      <div class="col-sm-2 p-3 border" style="background-color: blue;">
+        <button class="btn shadown-none" @onclick="@(() =>main(0))">
           <h4>Tidak Langsung</h4>
         </button>
       </div>
 
       <!-- jawapan skor 1-->
-      <div class="col-sm-2 p-3 border bg-light">
-        <button class="answer2" @onclick="@(() =>main(1))">
+      <div class="col-sm-2 p-3 border" style="background-color: green ;">
+        <button class="btn shadown-none" @onclick="@(() =>main(1))">
           <h4>Sedikit atau Jarang Jarang</h4>
         </button>
       </div>
 
       <!-- jawapan skor 2-->
-      <div class="col-sm-2 p-3 border bg-light">
-        <button class="answer3" @onclick="@(() =>main(2))">
+      <div class="col-sm-2 p-3 border" style="background-color: yellow;">
+        <button class="btn shadown-none" @onclick="@(() =>main(2))">
           <h4>Banyak atau Kerapkali</h4>
         </button>
       </div>
 
       <!-- jawapan skor 3-->
-      <div class="col-sm-2 p-3 border bg-light">
-        <button class="answer4" @onclick="@(() =>main(3))">
+      <div class="col-sm-2 p-3 border" style="background-color: red;">
+        <button class="btn shadown-none" @onclick="@(() =>main(3))">
           <h4>Sangat Banyak atau Sangat kerap</h4>
         </button>
       </div>
@@ -77,13 +78,15 @@
   private string tahapAnzieti = "";
   private string tahapKemurungan = "";
 
+  bool flag_endquestion = false;
+
   //check
   private void main(int nilai)
   {
     skor = nilai; 
 
     //sumup result
-    if(nomborSoalan != 22){
+    if(flag_endquestion == false){
       if(soalanStress.Contains(nomborSoalan)){
         if(skor == 0){
           keputusanStress = keputusanStress + skor;
@@ -258,16 +261,13 @@
 
       case 21:
         string soalan_21= "Saya rasa hidup ini tidak bermakna";
+        flag_endquestion = true;
         return soalan_21;
-
-
-      case 22:
-        string soalan_tamat= "Soalan Tamat";
-        return soalan_tamat;
 
       default:
         string soalan_tamat1= "Soalan Tamat";
         return soalan_tamat1;
     }
   }
+
 }
